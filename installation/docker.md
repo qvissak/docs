@@ -14,6 +14,10 @@ This docker-compose defines our database and Directus service and links them.
 
 ```yaml
 version: "3"
+
+networks:
+  directus:
+
 services:
   mysql:
     image: mysql:5.7
@@ -24,6 +28,8 @@ services:
       MYSQL_ROOT_PASSWORD: "directus"
     ports:
       - "3306:3306"
+    networks:
+      - directus
 
   directus:
     image: directus/directus:v8-apache
@@ -40,9 +46,9 @@ services:
       DIRECTUS_DATABASE_PASSWORD: "directus"
     volumes:
       - ./data/config:/var/directus/config
-      - ./data/uploads:/var/directus/public/uploads
-    links:
-      - mysql:mysql
+      - ./data/uploads:/var/directus/public/uploads    
+    networks:
+      - directus
 ```
 
 ::: tip
