@@ -76,7 +76,7 @@ docker-compose up -d
 Wait until Docker is done booting up the stack. You can check this by running `docker ps`. When it's done, run the following command to finish up installation of Directus.
 
 ```
-docker-compose run directus install --email email@example.com --password d1r3ctu5
+docker-compose run --rm directus install --email email@example.com --password d1r3ctu5
 ```
 
 ::: warning
