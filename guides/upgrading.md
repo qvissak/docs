@@ -3,7 +3,7 @@
 The standard upgrade process is as follows:
 
 1. Navigate (`cd`) to the root diretory of Directus
-2. Run `git pull origin` to get the latest code
+2. Run `git pull origin master` to get the latest code
 
 ::: tip Versionless API
 The Directus API is "versionless", which means that new releases will only include fixes and improvements, but no deprecations or breaking changes.
