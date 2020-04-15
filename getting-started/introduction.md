@@ -102,7 +102,7 @@ Join our growing community on [Directus Slack](https://directus.chat) (1,600+ me
 
 ### Directus Locales
 
-In addition to managing multilingual content, the Directus Admin App itself can also be translated into different langauges. Our locales are managed through the [Directus CrowdIn](https://locales.directus.io/), which provides a friendly interface and automatically submits pull-requests to the git repository.
+In addition to managing multilingual content, the Directus Admin App itself can also be translated into different languages. Our locales are managed through the [Directus CrowdIn](https://locales.directus.io/), which provides a friendly interface and automatically submits pull-requests to the git repository.
 
 ### Directus Marketplace
 
