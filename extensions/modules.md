@@ -60,4 +60,4 @@ The meta.json file contains metadata for the Module, such as its unique name, ve
 
 ## Access to API and Settings
 
-From within an extension the API methods provided by the [SDK](../sdk/js.html) can be accessed by the object `this.$api`. Information about the core application's state is contained in `this.$store.state` object, e.g. the user information in `this.$store.state.currentUser`.
+From within an extension the API methods provided by the [SDK](../guides/js-sdk.html) can be accessed by the object `this.$api`. Information about the core application's state is contained in `this.$store.state` object, e.g. the user information in `this.$store.state.currentUser`.
