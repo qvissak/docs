@@ -271,7 +271,7 @@ Returns a boolean called `valid`.
 <info-box title="Endpoint">
 
 ```endpoints
-   GET /:project/utils/random/string
+   GET /:project/utils/2fa_secret
 ```
 
 </info-box>
