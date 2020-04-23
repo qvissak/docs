@@ -14,6 +14,10 @@ This docker-compose defines our database and Directus service and links them.
 
 ```yaml
 version: "3"
+
+networks:
+  directus:
+
 services:
   mysql:
     image: mysql:5.7
@@ -24,6 +28,8 @@ services:
       MYSQL_ROOT_PASSWORD: "directus"
     ports:
       - "3306:3306"
+    networks:
+      - directus
 
   directus:
     image: directus/directus:v8-apache
@@ -40,9 +46,9 @@ services:
       DIRECTUS_DATABASE_PASSWORD: "directus"
     volumes:
       - ./data/config:/var/directus/config
-      - ./data/uploads:/var/directus/public/uploads
-    links:
-      - mysql:mysql
+      - ./data/uploads:/var/directus/public/uploads    
+    networks:
+      - directus
 ```
 
 ::: tip  
@@ -74,7 +80,7 @@ docker-compose up -d
 Wait until Docker is done booting up the stack. You can check this by running `docker ps`. When it's done, run the following command to finish up installation of Directus.
 
 ```
-docker-compose run directus install --email email@example.com --password d1r3ctu5
+docker-compose run --rm directus install --email email@example.com --password d1r3ctu5
 ```
 
 ::: warning
