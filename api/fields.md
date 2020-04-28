@@ -345,7 +345,7 @@ Returns a [field object](#the-field-object).
 <info-box title="Endpoint">
 
 ```endpoints
-GET /:project/field/:collection/:field
+GET /:project/fields/:collection/:field
 ```
 
 </info-box>
