@@ -288,7 +288,7 @@ Returns the [relation object](#the-relation-object) for the relation that was ju
     "collection_many": "articles",
     "field_many": "author",
     "collection_one": "authors",
-    "field_one": null,
+    "field_one": "books",
     "junction_field": null
   }
 }
