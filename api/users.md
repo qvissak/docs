@@ -486,6 +486,8 @@ Returns the [user object](#the-user-object) for the user that was just created.
 
 ```json
 {
+  "first_name": "Ben",
+  "last_name": "Haynes",
   "email": "demo@example.com",
   "password": "d1r3ctu5",
   "role": 3,
@@ -503,8 +505,8 @@ Returns the [user object](#the-user-object) for the user that was just created.
     "id": 14,
     "status": "active",
     "role": 3,
-    "first_name": null,
-    "last_name": null,
+    "first_name": "Ben",
+    "last_name": "Haynes",
     "email": "demo@example.com",
     "token": null,
     "last_access_on": null,
