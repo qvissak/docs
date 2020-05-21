@@ -340,7 +340,7 @@ Update an existing role
 
 <def-list>
 
-#### name <def-type alert>required</def-type>
+#### name <def-type>optional</def-type>
 Name of the role.
 
 #### description <def-type>optional</def-type>
