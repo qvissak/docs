@@ -18,7 +18,7 @@ You can not assign users to the Public Role, it is only used to configure public
 
 You can create additional roles to better organize users or limit their access to content. A role can be created by clicking on the "+" button in the top right of _Settings > Roles & Permissions_ and adding a name. Once created, you will be take to the Role Detail page where you can further configure its options.
 
-* **Permissions** — [Learn more abour Permissions](./permissions.md)
+* **Permissions** — [Learn more about Permissions](./permissions.md)
 * **Name** — The name of the role.
 * **Description** — An internal note to help administrators understand its purpose.
 * **IP Whitelist** — A CSV of IP addresses allowed to connect to the API that can be used to limit user access.
