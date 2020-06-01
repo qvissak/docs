@@ -23,6 +23,10 @@ The following PHP extensions (typically enabled by default) are also required: `
 While not officially supported, users have reported success installing Directus on MariaDB 10.2+.
 :::
 
+::: warning HTTPS
+You are required to run Directus using HTTPS.
+:::
+
 ## Step 2: Clone Directus
 
 Run the following command:

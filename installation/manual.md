@@ -27,6 +27,10 @@ The following PHP extensions (typically enabled by default) are also required: `
 While not officially supported, users have reported success installing Directus on MariaDB 10.2+.
 :::
 
+::: warning HTTPS
+You are required to run Directus using HTTPS.
+:::
+
 ## Step 2: Download a copy of Directus
 
 Head over to [the releases page of Directus](https://github.com/directus/directus/releases) and download a copy of the source code by clicking "Source code (zip)" under Assets.

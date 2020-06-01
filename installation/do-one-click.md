@@ -16,6 +16,12 @@ Go to [marketplace.digitalocean.com/apps/directus-1](https://marketplace.digital
 
 Directus is able to run on any of the plans that DigitalOcean offers. The $10/mo plan offers a nice balance of cost vs power and should be sufficient for most website uses. If you're expecting a high throughput on the API, we recommend upping the CPU and RAM as needed.
 
+::: warning Enabling HTTPS
+The DigitalOcean One-Click sets you up with an installation of Apache, which means you can use Certbot to automatically configure an SSL certificate. Follow this tutorial to set this up: [How To Secure Apache with Let's Encrypt on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-18-04)
+
+You're required to run Directus using HTTPS.
+:::
+
 ## Step 4: Login to your newly created Droplet
 
 When you login for the first time, the Droplet will display some important information about your installation, including database username and password. Make note of these values, as you need them in the next step.
@@ -23,10 +29,6 @@ When you login for the first time, the Droplet will display some important infor
 ## Step 5: Install your first project
 
 Open your new Directus installation in the browser. It will take you straight to the installation wizard for your first project. Use the credentials you were given in the previous step to continue.
-
-::: tip Enabling HTTPS
-The DigitalOcean One-Click sets you up with an installation of Apache, which means you can use Certbot to automatically configure an SSL certificate. Follow this tutorial to set this up: [How To Secure Apache with Let's Encrypt on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-18-04)
-:::
 
 ::: tip Updating
 The one-click sets you up with a Git based installation. See [the git instructions](/installation/git) for more information on how to update to the latest version of Directus.
