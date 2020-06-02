@@ -32,7 +32,7 @@ If the email doesn't send, make sure to check your email configuration. Using a 
 
 Send an email
 
-### Paremeters
+### Parameters
 
 <def-list>
 
