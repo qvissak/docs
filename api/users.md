@@ -315,7 +315,6 @@ This endpoint doesn't work for the public role.
 <def-list>
 
 !!! include params/project.md !!!
-!!! include params/id.md !!!
 
 </def-list>
 
