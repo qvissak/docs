@@ -4,7 +4,7 @@ Using `page` along with `limit` can set the maximum number of items that will be
 
 ::: warning
 To see metadata, you need to precise the `meta` query param.
-Exemple : `?limit=10&page=3meta=*`
+Exemple : `?limit=10&page=3&meta=*`
 :::
 
 ## Examples
