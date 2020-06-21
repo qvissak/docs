@@ -57,7 +57,7 @@ Optimized for dates and datetimes, this layout shows items in a monthly overview
 
 ### Timeline
 
-Optimized for dates and datetimes, this layout shows items in a linear timelne view by day.
+Optimized for dates and datetimes, this layout shows items in a linear timeline view by day.
 
 * **Date** — The date or datetime field used to order items
 * **Title** — The template string of fields used for the title of the item's event
