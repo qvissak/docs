@@ -169,8 +169,8 @@ In this example, the parent collection stores articles, so we've called it `arti
 
 We also need to create a related collection to store any fields that will be translated, such as the _Title_ and _Body_. We'll call this `article_translations`. Below we describe the required fields for this collection.
 
-* **Parent Foreign Key** — This is the field that stores the parent item's primary key. So in our example we would add an `article` field to store the article's ID. Typically we'd use a "Numeric" interface with a `integer` type, and set it to "Hide on Detail".
-* **Language Foreign Key** — This is the field that stores the language code. We recommend calling this field `language`. Typically we'd use a "Text Input" interface with a `lang` type, and set it to "Hide on Detail".
+* **Parent Foreign Key** — This is the field that stores the parent item's primary key. So in our example we would add an `article` field to store the article's ID. Typically we'd use a "Primary Key" interface, and set it to "Hide on Detail".
+* **Language Foreign Key** — This is the field that stores the language code. We recommend calling this field `language`. Typically we'd use a "Language" interface with a `lang` type, and set it to "Hide on Detail". We also recommend setting the option "Limit to Directus Availability".
 * **One or More Translated Fields** — Now just add any fields that you would like to use for translated content. In our "Articles" example this might be a `title` field as a Text Input, a `body` field as a WYSIWYG, or anything else you want translated.
 
 ### The Translation Field Setup
