@@ -926,6 +926,23 @@ client.getMe();
 
 ---
 
+#### `createUser(body)`
+
+Create a single user
+
+```js
+client.createUser({
+  first_name: "Ben",
+  last_name: "Haynes",
+  email: "demo@example.com",
+  password: "d1r3ctu5",
+  role: 3,
+  status: "active"
+});
+```
+
+---
+
 #### `updateUser(primaryKey, body)`
 
 Update a user by primary key
