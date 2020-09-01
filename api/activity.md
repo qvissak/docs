@@ -38,7 +38,7 @@ DELETE /:project/activity/comment/:id
 Unique identifier for the object.
 
 #### action <def-type>string</def-type>
-Action that was performed. One of `authenticate`, `comment`, `upload`, `create`, `update`, `delete`, `soft-delete`, `revert`.
+Action that was performed. One of `authenticate`, `comment`, `upload`, `create`, `update`, `delete`, `soft-delete`, `revert`, `status-update`.
 
 #### action_by <def-type>integer</def-type>
 Unique identifier of the user account who caused this action.
