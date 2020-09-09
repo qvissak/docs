@@ -53,6 +53,9 @@ If this field is the primary key of the collection.
 #### auto_increment <def-type>boolean</def-type>
 If the value in this field is auto incremented. Only applies to integer type fields.
 
+#### default_value <def-type>value</def-types>
+The default value for the field. Used when a specific value is not provided during item creation. The default value's type should be consistent with the `type` attribute.
+
 #### note <def-type>string</def-type>
 A user provided note for the field. Will be rendered alongside the interface on the edit page.
 
@@ -426,6 +429,9 @@ If this field is the primary key of the collection.
 #### auto_increment <def-type>optional</def-type>
 If the value in this field is auto incremented. Only applies to integer type fields.
 
+#### default_value <def-type>optional</def-types>
+The default value for the field. Used when a specific value is not provided during item creation. The default value's type should be consistent with the `type` attribute.
+
 #### note <def-type>optional</def-type>
 A user provided note for the field. Will be rendered alongside the interface on the edit page.
 
@@ -588,6 +594,9 @@ If this field is the primary key of the collection.
 
 #### auto_increment <def-type>optional</def-type>
 If the value in this field is auto incremented. Only applies to integer type fields.
+
+#### default_value <def-type>optional</def-types>
+The default value for the field. Used when a specific value is not provided during item creation. The default value's type should be consistent with the `type` attribute.
 
 #### note <def-type>optional</def-type>
 A user provided note for the field. Will be rendered alongside the interface on the edit page.
