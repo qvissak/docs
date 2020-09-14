@@ -109,7 +109,7 @@ A readonly interface for saving/showing when an item was last modified. Stores v
 * `showRelative` — Toggles showing dates relatively (eg: `12 minutes ago`)
 
 ### `divider`
-Adds a title and/or horizontal rule that can help organize forms in teh app. Does not store data (`alias`).
+Adds a title and/or horizontal rule that can help organize forms in the app. Does not store data (`alias`).
 
 * `style` — The size of the divider (Small, Medium, or Large)
 * `title` — An optional title to add
