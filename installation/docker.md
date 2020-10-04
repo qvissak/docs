@@ -90,3 +90,8 @@ Make sure to substitue `email@example.com` and `d1r3ctu5` with your preferred em
 ::: warning HTTPS
 You are required to run Directus using HTTPS.
 :::
+
+
+## Step 5: Log in
+
+Navigate to `http://localhost:8080/admin/#/login` and log in with the credentials in the previous step.
